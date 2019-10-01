@@ -1,0 +1,144 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/Release/GoodReleass/GoodReleass",
+		    "style" : {
+				"navigationBarTitleText": "发布",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+		},
+		{
+			"path": "pages/Release/index/index",
+			"style": {
+				"navigationBarTitleText": "帮忙砍价",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/Release/GoodCar/GoodCar",
+            "style" : {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor": "#EEEEED"
+			
+			}
+        }
+        ,{
+            "path" : "pages/Personal/MyDatainfo/MyDatainfo",
+            "style" : {
+				"navigationBarTitleText": "个人资料",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        }
+        ,{
+            "path" : "pages/Home/HomePage/HomePage",
+            "style" : {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        }
+        ,{
+            "path" : "pages/Personal/PhoneBind/PhoneBind",
+            "style" : {
+				"navigationBarTitleText": "绑定手机号",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        },{
+		    "path" : "pages/Personal/Prove/Prove",
+		    "style" : {
+				"navigationBarTitleText": "认证",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+		}
+        
+        ,{
+            "path" : "pages/Personal/UploadCard/UploadCard",
+            "style" : {
+				"navigationBarTitleText": "认证",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+			
+        }
+        ,{
+            "path" : "pages/Personal/Member/Member",
+            "style" : {
+				"navigationBarTitleText": "会员开通",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        }
+        ,{
+            "path" : "pages/Personal/Wallet/Wallet",
+            "style" : {
+				"navigationBarTitleText": "钱包",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        }
+        ,{
+            "path" : "pages/Personal/Extract/Extract",
+            "style" : {
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        }
+        ,{
+            "path" : "pages/Personal/address/address",
+            "style" : {
+				"navigationBarTitleText": "我的收货地址",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        }
+        ,{
+            "path" : "pages/Personal/CreateAddress/CreateAddress",
+            "style" : {
+				"navigationBarTitleText": "添加地址",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        }
+        ,{
+            "path" : "pages/Personal/UpAddress/UpAddress",
+            "style" : {
+				"navigationBarTitleText": "修改地址",
+				"navigationBarBackgroundColor": "#EEEEED"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+			"color":"#555555",
+			
+			"selectedColor":"#FF8070",
+			"borderStyle":"black",
+			"backgroundColor":"#F8F8F8",
+			"list":[{
+				"pagePath":"pages/Home/HomePage/HomePage",
+				"iconPath":"static/icon/tab_sy_fb.png",
+				"selectedIconPath":"static/icon/tab_sy_pre_fb.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/Release/GoodCar/GoodCar",
+				"iconPath":"static/icon/tab_gwc_fb.png",
+				"selectedIconPath":"static/icon/tab_gwc_pre_fb.png",
+				"text":"购物车"
+			},
+			
+			{
+				"pagePath":"pages/Release/GoodReleass/GoodReleass",
+				"iconPath":"static/icon/tab_fb.png",
+				"selectedIconPath":"static/icon/tab_fb_pre.png",
+				"text":"发布"
+			},
+			{
+				"pagePath":"pages/Personal/MyDatainfo/MyDatainfo",
+				"iconPath":"static/icon/icon_grzx_sy.png",
+				"selectedIconPath":"static/icon/tab_grzx_pre_sy.png",
+				"text":"个人中心"
+			}]
+		}
+}
